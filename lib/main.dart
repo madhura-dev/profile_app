@@ -28,7 +28,6 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
 
   // This widget is the home page of your application. It is stateful, meaning
   // that it has a State object (defined below) that contains fields that affect
@@ -39,7 +38,7 @@ class MyHomePage extends StatefulWidget {
   // used by the build method of the State. Fields in a Widget subclass are
   // always marked "final".
 
-  final String title;
+
 
   @override
   _MyHomePageState createState() => _MyHomePageState();
@@ -76,7 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
               backgroundImage: NetworkImage("https://t4.ftcdn.net/jpg/02/44/43/69/240_F_244436923_vkMe10KKKiw5bjhZeRDT05moxWcPpdmb.jpg"),
 
               radius: 60.0,
-              
+
             ),
             Text("Martin.S",style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold,color: Colors.white),),
             SizedBox(width: 10.0),
