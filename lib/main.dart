@@ -87,41 +87,59 @@ class _MyHomePageState extends State<MyHomePage> {
               thickness: 2.0,
             ),),
 
-            Container(
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Container(
 
-              height: 45,
-              color: Colors.white,
-              padding: EdgeInsets.all(10.0),
-              margin: EdgeInsets.symmetric(vertical: 15,horizontal: 15),
-              child: Row(
-                children: [
-                  Icon(
-                    Icons.phone,
-                    color: Colors.teal,
-                    size: 25.0,
-                  ),
-                  SizedBox(width: 10.0),
-                  Text("+9876543210",style: TextStyle(fontSize: 18.0,fontWeight: FontWeight.bold,color: Colors.teal),),
-                ],
+                height: 45,
+                color: Colors.white,
+
+                child: Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(left:8.0),
+                      child: Icon(
+                        Icons.email,
+                        color: Colors.teal,
+                        size: 25.0,
+                      ),
+                    ),
+
+                    Padding(
+                      padding: const EdgeInsets.only(left:8.0),
+                      child: Text("martin@gmail.com",style: TextStyle(fontSize: 18.0,fontWeight: FontWeight.bold,color: Colors.teal),),
+                    ),
+                  ],
+                ),
               ),
             ),
-            Container(
-              height: 45,
-              color: Colors.white,
-              padding: EdgeInsets.all(10.0),
-              margin: EdgeInsets.symmetric(vertical: 15,horizontal: 15),
-              child: Row(
-                children: [
-                  Icon(
-                    Icons.email,
-                    color: Colors.teal,
-                    size: 25.0,
-                  ),
-                  SizedBox(width: 10.0),
-                  Text("developer@gmail.com",style: TextStyle(fontSize: 18.0,fontWeight: FontWeight.bold,color: Colors.teal),),
-                ],
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Container(
+
+                height: 45,
+                color: Colors.white,
+
+                child: Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(left:8.0),
+                      child: Icon(
+                        Icons.phone,
+                        color: Colors.teal,
+                        size: 25.0,
+                      ),
+                    ),
+
+                    Padding(
+                      padding: const EdgeInsets.only(left:8.0),
+                      child: Text("+9876543210",style: TextStyle(fontSize: 18.0,fontWeight: FontWeight.bold,color: Colors.teal),),
+                    ),
+                  ],
+                ),
               ),
-            )
+            ),
+
           ],
         ),
       ),
