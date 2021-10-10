@@ -77,8 +77,9 @@ class _MyHomePageState extends State<MyHomePage> {
               radius: 60.0,
 
             ),
+            SizedBox(height: 10.0),
             Text("Martin.S",style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold,color: Colors.white),),
-            SizedBox(width: 10.0),
+            SizedBox(height: 10.0),
             Text("Flutter Developer",style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold,color: Colors.white),),
             SizedBox(height: 20.0,
             width: 300.0,
